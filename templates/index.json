@@ -36,6 +36,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/Mineral_science__Why_your_body_needs_minerals.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -131,6 +132,55 @@
         "padding_bottom": 44
       }
     },
+    "image_banner_B9iLi7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_L6DmDk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mineral science: ​Why your body needs minerals​",
+            "heading_size": "h1"
+          }
+        },
+        "text_HxHtBM": {
+          "type": "text",
+          "settings": {
+            "text": "Humans are made of 70% water, containing essential minerals such as potassium, magnesium and sodium.​​ </br></br>These minerals are crucial for optimal bodily functions, effective healing and overall skin health. ​​</br></br>Stress, poor diet and medication can deplete these mineral levels, leading to various skin conditions such as; acne, eczema and psoriasis, premature ageing, dandruff or itchy scalp, and even low mood or restless sleep.​",
+            "text_style": "body"
+          }
+        },
+        "buttons_C4qUhY": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find More Minerals",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_L6DmDk",
+        "text_HxHtBM",
+        "buttons_C4qUhY"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mineral_science__Why_your_body_needs_minerals.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "multicolumn_bLyPky": {
       "type": "multicolumn",
       "blocks": {
@@ -205,63 +255,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_B9iLi7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_L6DmDk": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mineral science: ​Why your body needs minerals​",
-            "heading_size": "h1"
-          }
-        },
-        "text_HxHtBM": {
-          "type": "text",
-          "settings": {
-            "text": "Humans are made of 70% water, containing essential minerals such as potassium, magnesium and sodium.​​ </br></br>These minerals are crucial for optimal bodily functions, effective healing and overall skin health. ​​</br></br>Stress, poor diet and medication can deplete these mineral levels, leading to various skin conditions such as; acne, eczema and psoriasis, premature ageing, dandruff or itchy scalp, and even low mood or restless sleep.​",
-            "text_style": "body"
-          }
-        },
-        "buttons_C4qUhY": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Find More Minerals",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_L6DmDk",
-        "text_HxHtBM",
-        "buttons_C4qUhY"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Mineral_science__Why_your_body_needs_minerals.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-4",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "image_banner",
     "collection_list_dXDDW3",
     "featured_collection",
+    "image_banner_B9iLi7",
     "multicolumn_bLyPky",
-    "featured_blog_DGN4eK",
-    "image_banner_B9iLi7"
+    "featured_blog_DGN4eK"
   ]
 }
