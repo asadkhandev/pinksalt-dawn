@@ -50,6 +50,25 @@
   }
 }
 
+@media screen and (min-width: 990px) {
+  .collection-list{
+    display: grid;
+    grid-template-columns: 1.5fr 0.833fr 0.833fr 0.834fr; /* Total = 4fr (2.5fr left after 1.5fr) */
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+
+  .collection-list li{
+    width: 100%;
+    max-width: none;
+  }
+
+  .collection-list li:first-of-type{
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .collection-list.slider .collection-list__item {
     max-width: 100%;
