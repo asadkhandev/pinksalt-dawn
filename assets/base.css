@@ -3001,6 +3001,10 @@ details-disclosure > details {
   .instafeed-new-layout-wrapper {
     grid-template-columns: repeat(2, auto) !important;
   }
+  .instafeed-new-layout-item {
+    width: 100% !important;
+    padding-bottom: 100%;
+  }
 }
 
 .global-media-settings {
