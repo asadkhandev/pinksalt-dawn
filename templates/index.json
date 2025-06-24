@@ -224,6 +224,7 @@
       "settings": {
         "title": "Why we are #1 in Pink Salt Products?",
         "heading_size": "h1",
+        "custom_class": "section-why_we_are",
         "image_width": "third",
         "image_ratio": "square",
         "button_label": "",
