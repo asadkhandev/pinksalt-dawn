@@ -495,6 +495,13 @@ h6:empty {
   font-family: inherit;
 }
 
+@media screen and (min-width: 750px) {
+  .link,
+  .customer a {
+    font-size: 1.8rem;
+  }
+}
+
 .link--text {
   color: rgb(var(--color-foreground));
 }
