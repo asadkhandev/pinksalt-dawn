@@ -67,12 +67,18 @@
     grid-column: span 1;
     grid-row: span 2;
   }
+
+  .home-page .card__inner{
+    height: 100%;
+  }
+
   .home-page .card__inner + .card__content{
     position: absolute;
     left: 0;
     bottom: 0;
     padding: 0;
   }
+
   .home-page .card:not(.ratio){
     flex-direction: column;
   }
@@ -83,6 +89,10 @@
 
   .home-page .card__heading{
     color: #fff;
+  }
+
+  .home-page .card .icon-wrap{
+    display: none;
   }
 
 }
