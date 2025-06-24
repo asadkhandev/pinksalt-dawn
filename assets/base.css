@@ -853,6 +853,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper--no-top-margin {
   margin-top: 0;
+  text-align: center;
 }
 
 .title-wrapper--no-top-margin > .title {
