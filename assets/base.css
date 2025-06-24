@@ -3005,6 +3005,15 @@ details-disclosure > details {
     width: 100% !important;
     padding-bottom: 100%;
   }
+  .title-wrapper-with-link{
+    align-items: center;
+  }
+  .title-wrapper-with-link{
+    justify-content: space-between;
+  }
+  .multicolumn .title-wrapper-with-link{
+    justify-content: center;
+  }
 }
 
 .global-media-settings {
