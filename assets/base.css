@@ -2995,12 +2995,19 @@ details-disclosure > details {
   border-radius: 0;
 }
 
+@media screen and (max-width: 989px) {
+  .blog .title-wrapper-with-link{
+    justify-content: space-between;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .content-container--full-width-mobile {
     border-left: none;
     border-right: none;
     border-radius: 0;
   }
+
   .content-container--full-width-mobile:after {
     display: none;
   }
@@ -3008,16 +3015,16 @@ details-disclosure > details {
   .instafeed-new-layout-wrapper {
     grid-template-columns: repeat(2, auto) !important;
   }
+
   .instafeed-new-layout-item {
     width: 100% !important;
     padding-bottom: 100%;
   }
+  
   .title-wrapper-with-link{
     align-items: center;
   }
-  .blog .title-wrapper-with-link{
-    justify-content: space-between;
-  }
+  
   .multicolumn .title-wrapper-with-link{
     justify-content: center;
   }
