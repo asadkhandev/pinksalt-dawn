@@ -386,8 +386,8 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div class=\"title-wrapper title-wrapper--no-top-margin\"><h2 class=\"title inline-richtext h1 scroll-trigger animate--slide-in\">Follow us on Instagram</h2>\n<div class=\"collection__description body rte scroll-trigger animate--slide-in\"><p>Join our community for daily inspiration and a closer look at our creations</p>\n</div>\n</div>\n<div id=\"insta-feed\"></div>\n</div>",
-        "color_scheme": "",
+        "custom_liquid": "<div class=\"social-section\">\n<div class=\"page-width\">\n<div class=\"title-wrapper title-wrapper--no-top-margin\"><h2 class=\"title inline-richtext h1 scroll-trigger animate--slide-in\">Follow us on Instagram</h2>\n<div class=\"collection__description body rte scroll-trigger animate--slide-in\"><p>Join our community for daily inspiration and a closer look at our creations</p>\n</div>\n</div>\n<div id=\"insta-feed\"></div>\n</div>\n</div>",
+        "color_scheme": "scheme-1",
         "padding_top": 52,
         "padding_bottom": 52
       }
