@@ -224,8 +224,10 @@
       "settings": {
         "title": "Why we are #1 in Pink Salt Products?",
         "heading_size": "h1",
+        "content_description": "This is a sample description text that appears under the heading.",
         "custom_class": "section-why_we_are",
         "image_width": "third",
+        "image_as_bg": false,
         "image_ratio": "square",
         "button_label": "",
         "button_link": "",
@@ -300,8 +302,10 @@
       "settings": {
         "title": "The magic of sea minerals",
         "heading_size": "h1",
+        "content_description": "This is a sample description text that appears under the heading.",
         "custom_class": "section-column_with_bg",
         "image_width": "full",
+        "image_as_bg": true,
         "image_ratio": "square",
         "button_label": "",
         "button_link": "",
