@@ -55,31 +55,31 @@
         "featured_collection_9zX3y9": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "edible-pink-salt"
           }
         },
         "featured_collection_D8TXQQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cooking-culinary-pink-salt"
           }
         },
         "featured_collection_nHHqhr": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "beauty-skincare"
           }
         },
         "featured_collection_YArEnY": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "decorative-wellness-items"
           }
         },
         "featured_collection_7A7jC3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bath-spa-products"
           }
         }
       },
@@ -98,8 +98,8 @@
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 52,
         "padding_bottom": 52
       }
