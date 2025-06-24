@@ -23,6 +23,11 @@
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
+    {%- if section.settings.contact_description != blank -%}
+      <div class="contact-description">
+        {{ section.settings.contact_description }}
+      </div>
+    {%- endif -%}
     {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll
@@ -177,6 +182,12 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "contact_description",
+      "label": "Contact description",
+      "default": "<p>Feel free to reach out to us using the form below or visit our store during working hours.</p>"
     },
     {
       "type": "color_scheme",
