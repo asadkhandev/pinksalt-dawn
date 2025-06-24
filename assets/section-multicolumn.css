@@ -235,3 +235,28 @@
     display: list-item;
   }
 }
+
+.multicolumn-card-bg {
+  position: relative;
+  padding-bottom: 100%;
+}
+
+.multicolumn-card-bg .multicolumn-card__info{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.multicolumn-card-bg > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
