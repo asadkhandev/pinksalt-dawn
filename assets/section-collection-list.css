@@ -51,19 +51,19 @@
 }
 
 @media screen and (min-width: 990px) {
-  .collection-list{
+  .home-page .collection-list{
     display: grid;
-    grid-template-columns: 1.5fr 0.833fr 0.833fr 0.834fr; /* Total = 4fr (2.5fr left after 1.5fr) */
+    grid-template-columns: 1.5fr 0.833fr 0.833fr;
     grid-template-rows: repeat(2, auto);
     gap: 20px;
   }
 
-  .collection-list li{
-    width: 100%;
-    max-width: none;
+  .home-page .collection-list li{
+    width: 100% !important;
+    max-width: none !important;
   }
 
-  .collection-list li:first-of-type{
+  .home-page .collection-list li:first-of-type{
     grid-column: span 1;
     grid-row: span 2;
   }
