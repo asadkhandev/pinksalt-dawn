@@ -2817,6 +2817,7 @@ details[open] > .header__submenu {
 .header__menu-item:hover span {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+  text-underline-offset: 1.5rem;
 }
 
 details[open] > .header__menu-item {
@@ -2839,7 +2840,7 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 1.5rem;
+  text-decoration-thickness: 0.3rem;
 }
 
 .header__submenu {
