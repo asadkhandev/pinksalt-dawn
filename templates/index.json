@@ -187,7 +187,7 @@
         "column_HLcfMe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/shuffle-crossing-arrows.svg",
+            "image": "shopify://shop_images/shuffle-crossing-arrows-black.svg",
             "title": "Free Shipping",
             "text": "<p>On all order above Rs.2000 in Pakistan only.</p>",
             "link_label": "",
@@ -197,7 +197,7 @@
         "column_i9xaUq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/return-icon.svg",
+            "image": "shopify://shop_images/return-icon-black.svg",
             "title": "15 days return",
             "text": "<p>Not satisfied? Send it back within 15 days – no worries!</p>",
             "link_label": "",
@@ -207,7 +207,7 @@
         "column_dLYcgK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/airplane-icon.svg",
+            "image": "shopify://shop_images/airplane-icon-black.svg",
             "title": "International Warranty",
             "text": "<p>Quality guaranteed globally with our international warranty program</p>",
             "link_label": "",
