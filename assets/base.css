@@ -2997,6 +2997,10 @@ details-disclosure > details {
   .content-container--full-width-mobile:after {
     display: none;
   }
+
+  .instafeed-new-layout-wrapper {
+    grid-template-columns: repeat(2, auto) !important;
+  }
 }
 
 .global-media-settings {
