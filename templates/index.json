@@ -300,7 +300,7 @@
       "settings": {
         "title": "The magic of sea minerals",
         "heading_size": "h1",
-        "custom_class": "",
+        "custom_class": "section-column_with_bg",
         "image_width": "full",
         "image_ratio": "square",
         "button_label": "",
