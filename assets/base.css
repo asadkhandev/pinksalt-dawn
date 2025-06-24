@@ -3008,7 +3008,7 @@ details-disclosure > details {
   .title-wrapper-with-link{
     align-items: center;
   }
-  .title-wrapper-with-link{
+  .blog .title-wrapper-with-link{
     justify-content: space-between;
   }
   .multicolumn .title-wrapper-with-link{
