@@ -67,6 +67,11 @@
     grid-column: span 1;
     grid-row: span 2;
   }
+  .home-page .card__inner + .card__content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 989px) {
