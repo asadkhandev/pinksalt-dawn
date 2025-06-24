@@ -40,6 +40,11 @@
             {{- section.settings.button_label | escape -}}
           </a>
         {%- endif -%}
+        {%- if section.settings.content_description != blank -%}
+          <div class="multicolumn-description">
+            <p>{{ section.settings.content_description }}</p>
+          </div>
+        {%- endif -%}
       </div>
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
@@ -236,6 +241,12 @@
     {
       "type": "header",
       "content": "t:sections.multicolumn.settings.header_image.content"
+    },
+    {
+      "type": "textarea",
+      "id": "content_description",
+      "label": "Content description",
+      "default": "This is a sample description text that appears under the heading."
     },
     {
       "type": "text",
