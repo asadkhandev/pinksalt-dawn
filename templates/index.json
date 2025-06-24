@@ -303,7 +303,7 @@
         "title": "The magic of sea minerals",
         "heading_size": "h1",
         "content_description": "This is a sample description text that appears under the heading.",
-        "custom_class": "section-column_with_bg",
+        "custom_class": "",
         "image_width": "full",
         "image_as_bg": true,
         "image_ratio": "square",
