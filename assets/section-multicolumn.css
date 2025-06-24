@@ -236,7 +236,8 @@
   }
 }
 
-.section-column_with_bg.multicolumn .title-wrapper-with-link{
+.section-column_with_bg.multicolumn .title-wrapper-with-link,
+.section-why_we_are.multicolumn .title-wrapper-with-link{
   flex-direction: column;
 }
 
