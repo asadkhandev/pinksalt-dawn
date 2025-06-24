@@ -382,33 +382,14 @@
         "padding_bottom": 52
       }
     },
-    "1750757796eb8393fb": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_fBMWTq": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_fBMWTq"
-      ],
+    "custom_liquid_n84Ce7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "include_margins": true
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"title-wrapper title-wrapper--no-top-margin\"><h2 class=\"title inline-richtext h1 scroll-trigger animate--slide-in\">Follow us on Instagram</h2>\n<div class=\"collection__description body rte scroll-trigger animate--slide-in\"><p>Join our community for daily inspiration and a closer look at our creations</p>\n</div>\n</div>\n<div id=\"insta-feed\"></div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     }
   },
@@ -421,6 +402,6 @@
     "image_banner_B9iLi7",
     "multicolumn_aecVGV",
     "featured_blog_DGN4eK",
-    "1750757796eb8393fb"
+    "custom_liquid_n84Ce7"
   ]
 }
