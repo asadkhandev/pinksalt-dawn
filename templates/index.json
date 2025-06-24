@@ -104,83 +104,6 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Trending Products",
-        "heading_size": "h1",
-        "description": "<p>Delivery throughout the blue globe.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
-    "image_banner_B9iLi7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_L6DmDk": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mineral science: ​Why your body needs minerals​",
-            "heading_size": "h1"
-          }
-        },
-        "text_HxHtBM": {
-          "type": "text",
-          "settings": {
-            "text": "Humans are made of 70% water, containing essential minerals such as potassium, magnesium and sodium.​​ </br></br>These minerals are crucial for optimal bodily functions, effective healing and overall skin health. ​​</br></br>Stress, poor diet and medication can deplete these mineral levels, leading to various skin conditions such as; acne, eczema and psoriasis, premature ageing, dandruff or itchy scalp, and even low mood or restless sleep.​",
-            "text_style": "body"
-          }
-        },
-        "buttons_C4qUhY": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Find More Minerals",
-            "button_link_1": "shopify://pages/about-us",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_L6DmDk",
-        "text_HxHtBM",
-        "buttons_C4qUhY"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Mineral_science__Why_your_body_needs_minerals.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-4",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "multicolumn_bLyPky": {
       "type": "multicolumn",
       "blocks": {
@@ -241,22 +164,144 @@
         "padding_bottom": 52
       }
     },
-    "featured_blog_DGN4eK": {
-      "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
-        "blog": "news",
-        "post_limit": 3,
-        "heading": "Latest News",
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Trending Products",
         "heading_size": "h1",
-        "columns_desktop": 3,
+        "description": "<p>Delivery throughout the blue globe.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
         "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "color_scheme": "scheme-2",
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 52
+      }
+    },
+    "featured_product_c4nWda": {
+      "type": "featured-product",
+      "blocks": {
+        "text_BgtLU9": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_UgdEqU": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_QLMJRr": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_3twbBc": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_FqBar8": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_t6gkFJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_BgtLU9",
+        "title_UgdEqU",
+        "price_QLMJRr",
+        "variant_picker_3twbBc",
+        "quantity_selector_FqBar8",
+        "buy_buttons_t6gkFJ"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "",
+        "color_scheme": "scheme-2",
+        "secondary_background": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_B9iLi7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_L6DmDk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mineral science: ​Why your body needs minerals​",
+            "heading_size": "h1"
+          }
+        },
+        "text_HxHtBM": {
+          "type": "text",
+          "settings": {
+            "text": "Humans are made of 70% water, containing essential minerals such as potassium, magnesium and sodium.​​ </br></br>These minerals are crucial for optimal bodily functions, effective healing and overall skin health. ​​</br></br>Stress, poor diet and medication can deplete these mineral levels, leading to various skin conditions such as; acne, eczema and psoriasis, premature ageing, dandruff or itchy scalp, and even low mood or restless sleep.​",
+            "text_style": "body"
+          }
+        },
+        "buttons_C4qUhY": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find More Minerals",
+            "button_link_1": "shopify://pages/about-us",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_L6DmDk",
+        "text_HxHtBM",
+        "buttons_C4qUhY"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mineral_science__Why_your_body_needs_minerals.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "multicolumn_aecVGV": {
@@ -315,18 +360,37 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "featured_blog_DGN4eK": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "post_limit": 3,
+        "heading": "Latest News",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner",
     "collection_list_dXDDW3",
-    "featured_collection",
-    "image_banner_B9iLi7",
     "multicolumn_bLyPky",
-    "featured_blog_DGN4eK",
-    "multicolumn_aecVGV"
+    "featured_collection",
+    "featured_product_c4nWda",
+    "image_banner_B9iLi7",
+    "multicolumn_aecVGV",
+    "featured_blog_DGN4eK"
   ]
 }
