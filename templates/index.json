@@ -241,7 +241,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "",
+        "product": "bowl-shape-lamp",
         "color_scheme": "scheme-2",
         "secondary_background": true,
         "media_size": "small",
