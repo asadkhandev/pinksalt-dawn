@@ -3628,3 +3628,7 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+.cart-page .title-wrapper-with-link{
+  justify-content: space-between;
+}
