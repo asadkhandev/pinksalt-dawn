@@ -167,17 +167,17 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "trending-products",
+        "products_to_show": 6,
         "title": "Trending Products",
         "heading_size": "h1",
         "description": "<p>Delivery throughout the blue globe.</p>",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "enable_desktop_slider": false,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
         "image_ratio": "square",
@@ -187,7 +187,7 @@
         "show_rating": true,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 52,
         "padding_bottom": 52
       }
