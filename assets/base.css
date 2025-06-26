@@ -2486,7 +2486,7 @@ input[type='checkbox'] {
     justify-self: start;
   }
 
-  .header{
+  body .header{
     padding: 6px 2rem;
     grid-template-areas: "heading icons left-icons";
   }
@@ -2497,7 +2497,7 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 749px) {
-  .header{
+  body .header{
     padding: 6px 1.5rem;
   }
 }
