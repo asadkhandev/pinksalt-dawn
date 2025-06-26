@@ -489,4 +489,8 @@
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
   }
+
+  .section-mineral-science .banner__box{
+    background: rgba(var(--color-background), 0.6);
+  }
 }
