@@ -2486,8 +2486,19 @@ input[type='checkbox'] {
     justify-self: start;
   }
 
+  .header{
+    padding: 6px 2rem;
+    grid-template-areas: "heading icons left-icons";
+  }
+
   .header--mobile-left {
-    grid-template-columns: auto 2fr 1fr;
+    grid-template-columns: 2fr 1fr auto;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .header{
+    padding: 6px 1.5rem;
   }
 }
 
