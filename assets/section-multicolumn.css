@@ -129,6 +129,7 @@
     padding-right: 5rem;
   }
 
+  .section-why_we_are .grid--1-col-tablet-down.grid--peek .grid__item,
   .section-column_with_bg .grid--1-col-tablet-down.grid--peek .grid__item{
     width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
   }
