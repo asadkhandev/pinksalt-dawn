@@ -11,10 +11,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": true,
+        "show_collection_image": false,
         "color_scheme": "scheme-5"
       }
     },
@@ -40,6 +39,7 @@
         "heading_WVfDcj",
         "text_mU9PUb"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "{{ collection.image }}",
@@ -50,6 +50,7 @@
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-3",
+        "custom_class": "",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true
