@@ -441,6 +441,10 @@ table:not([class]) th {
   .medium-hide {
     display: none !important;
   }
+
+  .home-page .collection .grid--1-col-tablet-down.grid--peek .grid__item{
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
+  }
 }
 
 @media screen and (min-width: 990px) {
