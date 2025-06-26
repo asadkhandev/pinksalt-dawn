@@ -1003,6 +1003,11 @@ summary::-webkit-details-marker {
   .scroll-trigger:not(.scroll-trigger--offscreen) .slider--tablet {
     animation: var(--animation-slide-in);
   }
+
+  .collection-page .collection .grid--1-col-tablet-down .grid__item{
+    width: calc(100% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
 }
 
 @media screen and (min-width: 990px) {
