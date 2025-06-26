@@ -2498,6 +2498,14 @@ input[type='checkbox'] {
   body header-drawer{
     margin-left: 0;
   }
+
+  .header__icons{
+    padding-right: 0;
+  }
+
+  .header__icon--cart{
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 749px) {
