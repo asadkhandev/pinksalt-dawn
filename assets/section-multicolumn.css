@@ -128,6 +128,10 @@
     padding-left: 5rem;
     padding-right: 5rem;
   }
+
+  .section-column_with_bg .grid--1-col-tablet-down.grid--peek .grid__item{
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
+  }
 }
 
 @media screen and (min-width: 750px) {
