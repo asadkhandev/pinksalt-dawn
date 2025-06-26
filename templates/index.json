@@ -44,6 +44,7 @@
         "desktop_content_alignment": "left",
         "show_text_box": false,
         "color_scheme": "scheme-3",
+        "custom_class": "",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -299,6 +300,7 @@
         "desktop_content_alignment": "center",
         "show_text_box": true,
         "color_scheme": "scheme-4",
+        "custom_class": "section-mineral-science",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true
